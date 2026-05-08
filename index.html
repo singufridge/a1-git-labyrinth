@@ -11,21 +11,24 @@
                 text-align: center;
             }
 
-            ul {
+            ul.img-grid {
                 list-style-type: none;
                 margin: 0;
             }
 
             li {
                 display: inline;
-                float: left;
                 padding-left: 10px;
+            }
+
+            li img {
+                width: 200px;
             }
         </style>
     </head>
     <body>
         <div class="header">
-            <!-- title -->
+            <!-- title/header -->
             <h1>
                 Welcome to<br>
                 ✰ Cadence's Weird Garden! ✰
@@ -33,12 +36,18 @@
             <p>
                 The start of my weird garden!
             </p>
-        </div>
-        <div class="container">
-            <ul class="img grid">
-                <li>one</li>
-                <li>two</li>
+
+            <!-- grid of trees -->
+            <!-- todo: add classes to img tags to link img in css -->
+            <ul class="img-grid">
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Tree_Transparent_Background.png"></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Tree_Transparent_Background.png"></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Tree_Transparent_Background.png"></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Tree_Transparent_Background.png"></li>
             </ul>
+        </div>
+        <div>
+            
         </div>
     </body>
 </html>
