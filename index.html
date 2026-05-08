@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>✰ Cadence's Site! ✰</title>
         <style>
+            /* fixes issues with margins */
             body {
                 margin: 0;
                 padding: 5%;
@@ -16,6 +17,7 @@
                 text-align: center;
             }
 
+            /* transforms list into more of a grid-like element */
             ul.garden {
                 list-style-type: none;
                 margin: 0;
@@ -29,9 +31,12 @@
 
             li {
                 display: inline;
+                text-align: center;
+                
                 padding-left: 10px;
             }
 
+            /* procedurally attaches tree img to img tags labelled "tree" */
             .tree {
                 width: 200px;
                 content: url(https://upload.wikimedia.org/wikipedia/commons/b/bf/Tree_Transparent_Background.png);
@@ -51,7 +56,6 @@
         </div>
         <div class="garden">
             <!-- grid of trees -->
-            <!-- todo: add classes to img tags to link img in css -->
             <ul class="garden">
                 <li><img class="tree"></li>
                 <li><img class="tree"></li>
@@ -63,7 +67,9 @@
                 <li><img class="tree"></li>
                 <li><img class="tree"></li>
                 <li>do trees count as a garden? :/</li>
+
                 <br>
+
                 <li><img class="tree"></li>
                 <li><img class="tree"></li>
                 <li><img class="tree"></li>
