@@ -64,6 +64,11 @@
             td {
                 text-align: center;
             }
+
+            form {
+                padding-top: 30px;
+                text-align: center;
+            }
         </style>
     </head>
     <body style="background-color: lavender;">
@@ -126,7 +131,7 @@
         </div>
         <!-- Horseshoe Crab information -->
         <div>
-            <p style="text-align: center;">Which one is your favourite?</p>
+            <h3 style="text-align: center;">Which one is your favourite?</h3>
 
             <table>
                 <caption>
@@ -155,6 +160,23 @@
                     </tr>
                 </tbody>
             </table>
+
+            <form>
+                <h4>Feedback form:</h4>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <br>
+                <label for="animalchoice">Choose your fighter:</label><br>
+                <input type="radio" id="crab" name="crab">
+                <label for="crab">Horseshoe Crab</label><br>
+                <input type="radio" id="capy" name="capy">
+                <label for="capy">Capybara</label><br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </body>
 </html>
